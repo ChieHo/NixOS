@@ -132,6 +132,12 @@
   # Before changing this value read the documentation for this option
   # (e.g. man configuration.nix or on https://nixos.org/nixos/options.html).
   system.stateVersion = "26.05"; # Did you read the comment?
+
+  environment.shellAliases = {
+    gitpush = "sudo GIT_SSH_COMMAND=\"ssh -i /home/chiehoc/.ssh/id_ed25519\" git push";
+    update = "sudo nixos-rebuild switch";
+    config = "sudo nan /etc/nixos/configuration.nix";
+  };
   
   #Fonts
   fonts = {
