@@ -108,11 +108,13 @@
     keepassxc
     thunderbird
     kdePackages.oxygen
+    kdePackages.oxygen-sounds
     librewolf
     discord
     htop
     libreoffice
     mullvad
+    zsh
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
