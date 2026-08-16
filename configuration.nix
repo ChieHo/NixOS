@@ -118,6 +118,7 @@
     cava
     kdePackages.qtwebsockets
     python3Packages.websockets
+    python3
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
