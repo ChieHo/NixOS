@@ -115,6 +115,9 @@
     libreoffice
     mullvad
     zsh
+    cava
+    kdePackages.qtwebsockets
+    python3Packages.websockets
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
