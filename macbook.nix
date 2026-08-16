@@ -16,7 +16,7 @@
   # 4. Apple-Lüftersteuerung aktivieren
   services.mbpfan = {
     enable = true;
-    aggressive = true;
+    aggressive = false;
   };
 }
 
