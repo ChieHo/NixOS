@@ -87,14 +87,14 @@
     description = "Chie-Ho Chong";
     extraGroups = [ "networkmanager" "wheel" ];
     packages = with pkgs; [
-      kdePackages.kate
+       kdePackages.kate
     #  thunderbird
     ];
   };
   users.defaultUserShell = pkgs.zsh;
   # Install firefox.
   programs.firefox.enable = true;
-
+  programs.zsh.enable = true;
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
 
@@ -117,7 +117,6 @@
     htop
     libreoffice
     mullvad
-    zsh
     cava
     kdePackages.qtwebsockets
     python3
