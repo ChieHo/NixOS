@@ -13,6 +13,7 @@
           ./hardware-configuration.nix
           ./configuration.nix
 	  ./macbook.nix
+	  ./jupyter.nix
         ];
       };
     };
